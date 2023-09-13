@@ -6,6 +6,11 @@ export interface Ipokemon {
     name: string,
     picture: string,
     types: string,
-    // created: string,
-
+    created: string,
 }
+
+export interface resultPokemonApi {
+    true: string | undefined,
+    err: string | undefined
+    userApi: string | undefined
+  }
